@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+:root {
+	/*column colors*/
+	--column1-color: hsl(31, 77%, 52%);
+	--column2-color: hsl(184, 100%, 22%);
+	--column3-color: hsl(179, 100%, 13%);
+
+	/*Text colors*/
+	--paragraph-color: hsla(0, 0%, 100%, 0.75);
+	--heading-color: hsl(0, 0%, 95%);
+}
+
+body {
+	font-size: 15px;
+}
