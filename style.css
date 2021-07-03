@@ -72,10 +72,17 @@ body {
 
 .learn-more-btn {
 	background-color: var(--heading-color);
-	border-style: none;
+	border-style: solid;
+	border-color: var(--heading-color);
 	font-family: "Lexend Deca";
 	padding: 10px 15px 10px 15px;
 	border-radius: 20px;
+	transition: background-color 200ms, color 200ms; 
+}
+
+.learn-more-btn:hover {
+	background-color: transparent;
+	color: var(--heading-color);
 }
 
 @media (max-width: 810px) {
